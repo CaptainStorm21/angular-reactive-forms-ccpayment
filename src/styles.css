@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import "bulma/css/bulma.css";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500&family=Noto+Sans+TC&family=Yanone+Kaffeesatz:wght@300;400&display=swap');
+
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: rgb(0, 48, 37);
+}
+p {
+  font-family: 'Noto Sans TC', sans-serif;
+  font-size: 1.75em;
+}
+/*
+font-family: 'Noto Sans SC', sans-serif;
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+*/
