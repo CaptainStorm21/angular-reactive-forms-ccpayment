@@ -1,7 +1,10 @@
-<div class="container">
+<div class="container mt-5">
   <form [formGroup]="cardForm">
     <input formControlName="name" />
-    <ng-container *ngIf="cardForm.controls.name.errors">
+    <ng-container *ngIf=
+          "cardForm.controls.name.dirty &&
+          cardForm.controls.name.touched &&
+          cardForm.controls.name.errors">
       <div class="errors" *ngIf="cardForm.controls.name.errors.required">
         Value is valid.
       </div>
@@ -14,7 +17,7 @@
 </div>
 
 
-<div>
+<div class = "mt-5">
   <p>
     Form Content: {{ cardForm.value | json }}
   </p>
