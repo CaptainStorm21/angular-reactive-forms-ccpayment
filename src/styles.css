@@ -19,3 +19,19 @@ font-family: 'Noto Sans SC', sans-serif;
 font-family: 'Noto Sans TC', sans-serif;
 font-family: 'Yanone Kaffeesatz', sans-serif;
 */
+
+.container {
+  margin: 0 auto;
+  width: 70%;
+  margin-top: 40px;
+}
+
+input
+{
+  padding: 10px;
+}
+
+.errors
+ {
+   color: red;
+ }
